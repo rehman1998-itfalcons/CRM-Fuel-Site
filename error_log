@@ -1,0 +1,182 @@
+[24-Mar-2022 13:38:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('translator')
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('translator')
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('translator', Array)
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/atlasfue/cr in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[24-Mar-2022 13:46:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framewo in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[24-Mar-2022 13:48:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framewo in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[24-Mar-2022 13:48:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framewo in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[24-Mar-2022 14:07:40 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:07:40 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:07:47 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:07:47 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:08:00 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:08:00 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:08:23 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[24-Mar-2022 14:08:23 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#11 /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home/atlasfue/crm.atlasfuel.com.au/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853
+[25-Mar-2022 10:41:27 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\AccountantController::syncSalesuid() in /home/atlasfue/crm.atlasfuel.com.au/app/Http/Controllers/AccountantController.php on line 439
+[06-Apr-2022 11:03:15 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/FrameReflower/Text.php on line 412
+[06-Apr-2022 11:13:06 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 877
+[06-Apr-2022 11:13:40 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 879
+[06-Apr-2022 11:16:35 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 877
+[06-Apr-2022 11:20:29 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 877
+[06-Apr-2022 11:24:18 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 877
+[06-Apr-2022 11:28:22 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 878
+[06-Apr-2022 11:29:03 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 877
+[06-Apr-2022 11:29:10 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 471
+[06-Apr-2022 11:30:36 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Css/Style.php on line 877
+[06-Apr-2022 11:42:11 UTC] PHP Fatal error:  Out of memory (allocated 1363152896) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 603
+[06-Apr-2022 11:42:12 UTC] PHP Fatal error:  Out of memory (allocated 1363152896) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 603
+[06-Apr-2022 11:45:25 UTC] PHP Fatal error:  Out of memory (allocated 1363152896) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 603
+[06-Apr-2022 11:47:00 UTC] PHP Fatal error:  Out of memory (allocated 687869952) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 585
+[06-Apr-2022 11:48:14 UTC] PHP Fatal error:  Out of memory (allocated 1363152896) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 603
+[06-Apr-2022 11:50:23 UTC] PHP Fatal error:  Out of memory (allocated 1363152896) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 585
+[06-Apr-2022 11:53:42 UTC] PHP Fatal error:  Out of memory (allocated 1363152896) (tried to allocate 20480 bytes) in /home/atlasfue/crm.atlasfuel.com.au/vendor/dompdf/dompdf/src/Cellmap.php on line 585
